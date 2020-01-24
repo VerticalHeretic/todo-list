@@ -19,6 +19,7 @@ public class ToDoData { //this is our in memory database class
         addItem(new ToDoItem("first", "first details", LocalDate.now()));
         addItem(new ToDoItem("second", "second details", LocalDate.now()));
         addItem(new ToDoItem("third", "third details", LocalDate.now()));
+        addItem(new ToDoItem("fourth", "fourth details", LocalDate.now()));
     }
 
     // == public methods ==
