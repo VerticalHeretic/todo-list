@@ -37,7 +37,7 @@ public class ToDoData { //this is our in memory database class
     }
 
     public void removeItem(int id){
-        ListIterator<ToDoItem> itemListIterator =items.listIterator();
+        ListIterator<ToDoItem> itemListIterator = items.listIterator();
 
         while (itemListIterator.hasNext()){
             ToDoItem item = itemListIterator.next();
