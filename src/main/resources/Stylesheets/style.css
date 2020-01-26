@@ -1,0 +1,6 @@
+#mainDiv{
+    display: flex;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}

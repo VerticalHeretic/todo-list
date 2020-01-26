@@ -2,13 +2,14 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page import="academy.learnprogramming.util.AttributeNames" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<link href="src/main/resources/Stylesheets/style.css" rel="stylesheet" type="text/css">
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Add Items</title>
 </head>
 <body>
-    <div align="center">
+    <div align="center" id="mainDiv">
 
         <%--@elvariable id="${AttributeNames.TODO_ITEM}" type="academy"--%>
         <form:form method="POST" modelAttribute="${AttributeNames.TODO_ITEM}">
